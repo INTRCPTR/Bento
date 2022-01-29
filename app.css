@@ -4,14 +4,14 @@
 // ╚═╝╚═╝╝╚╝ ╩ ╚═╝ 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/cssf2?family=Open+Sans:wght@300;400;700&display=swap');
 
 /* V A R I A B L E S */
 
 :root {
   /* Fonts  */
-  --fsg: 12vh; /* Time and Greetings */
-  --fsm: 8vh; /* Date */
+  --fsg: 6vh; /* Time and Greetings */
+  --fsm: 4vh; /* Date */
   --fss: 3vh; /* Greetings and Weather widger */
   --fses: 2vh; /* Links List */
 
@@ -49,8 +49,8 @@
 /* S T Y L E S */
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 10;
+  padding: 10;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
   transition: 0.2s ease-in-out;
